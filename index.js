@@ -1,13 +1,19 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { isRegExp } = require('util');
+// const { isRegExp } = require('util');
 const {
     generateMarkdown
 } = require('./utils/generateMarkdown')
-const questions = [{
+const questions = [
+    {
+        type: 'input',
+        message: 'What is the title of your project?',
+        name: 'title',
+    },
+    {
         type: 'input',
         message: 'What is your GitHub username?',
-        name: 'title',
+        name: 'git',
     },
     {
         type: 'input',
@@ -63,15 +69,15 @@ function init() {
                 // console.log('CONTENT===>', content)
                 fs.writeFile('README.md', content, err => {
                     if(err) {
-                        console.log(err, "this is an error")
+                        console.log(err, "There is an error")
                         return;
                     } else {
                         console.log ('\x1b[35m%s\x1b[0m', "Generating README...");
                     }
-                })
+                });
                 
 
-            })
+            });
                     
 }
     

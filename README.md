@@ -1,16 +1,30 @@
 
-    ## Description
-    This is a readme generator
+    ReadMe Generator
     ## Table of Contents
+    [Description](#description)
+
+    [Installation](#installation)
+
+    [Usage](#usage)
+
+    [Tests](#tests)
+
+    ## Description
+    This is a readme generator using NodeJS and inquirer
+
+    ## Usage
+    clone the ssh key to your local machine to run
 
     ## Installation
+
     npm i
-    ## Usage
-    run this app using npm i
+    
     ## Contributing
-    git push
+    open an issue if there is any problems with the generator
+
     ## Tests
     npm test
-    ## GitHub User and Email
-    sebcampos321
-    seb.campos03@gmail.com
+   
+    ## Questions
+    If you have any questions about my project, email me at seb.campos03@gmail.com or check out my GitHub projects [sebcampos321](https://github.comsebcampos321)
+    

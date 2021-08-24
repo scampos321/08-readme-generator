@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "inquirer": "^8.1.2",
-    "markdown-js": "0.0.4"
+    "inquirer": "^8.1.2"
   },
   "devDependencies": {},
   "scripts": {
