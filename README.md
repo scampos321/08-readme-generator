@@ -12,6 +12,8 @@
 
 * [Tests](#tests)
 
+*[Technologies](#technologies)
+
 # Description
 
 This is a readme generator using NodeJS and inquirer.
@@ -26,13 +28,19 @@ Then enter the prompts as followed. The README file will be generated after all 
 * npm i
     
 ## Contributing
-
-Open source
+*Fork repo
+*Clone repo to machine
+* Git commit
+* Git push to repo
 
 ## Tests
 
 * npm test
    
+## Technologies
+*NodeJS
+*Inquirer
+
 ## Questions
 
 If you have any questions about my project, email me at scampos321 or check out my GitHub projects [scampos321](https://github.comscampos321)   
