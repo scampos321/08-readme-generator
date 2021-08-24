@@ -32,8 +32,13 @@ const questions = [
         type: 'list',
         message: 'What license do you prefer?',
         name: 'license',
-        choices: ['BSD', 'MIT', 'GPL'],
-        default: 'MIT'
+        choices: [
+        'BSD [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)', 
+        'MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+        'Apache 2.0 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+        'Unlicensed [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+    ],
+        default: 'MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
     },
     {
         type: 'input',
@@ -77,17 +82,12 @@ function init() {
                         console.log(err, "There is an error")
                         return;
                     } else {
-                        console.log ('\x1b[35m%s\x1b[0m', "Generating README..." + fileName);
+                        console.log ('\x1b[35m%s\x1b[0m', "Generating " + fileName + "...");
                     }
                 });
-                                                 }
-                
-
-
-            // });
+                }
         
         
 }
 
-
-    init();
+init();
