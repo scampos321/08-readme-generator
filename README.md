@@ -23,6 +23,7 @@ When the user needs to create a README file the user can create one using my REA
 The user has to clone the repo to run the application. When that is done, use the terminal and input node index.js to initiate the app.
 Then enter the prompts as followed. The README file will be generated after all the prompts have been answered.
 
+<img width="1085" alt="Screen Shot 2021-08-24 at 5 05 36 PM" src="https://user-images.githubusercontent.com/85428896/130690927-bfdb752b-d96a-4ade-9fe5-4049881b1380.png">
 
 
 ## Installation
@@ -30,8 +31,8 @@ Then enter the prompts as followed. The README file will be generated after all 
 * npm i
     
 ## Contributing
-*Fork repo
-*Clone repo to machine
+* Fork repo
+* Clone repo to machine
 * Git commit
 * Git push to repo
 
