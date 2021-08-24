@@ -12,16 +12,18 @@
 
 * [Tests](#tests)
 
-*[Technologies](#technologies)
+* [Technologies](#technologies)
 
 # Description
-
-This is a readme generator using NodeJS and inquirer.
+When the user needs to create a README file the user can create one using my README Generator. It will generate a README depending on the prompts entered.
 
 ## Usage
+<img width="488" alt="Screen Shot 2021-08-24 at 5 06 08 PM" src="https://user-images.githubusercontent.com/85428896/130690491-1dee9483-c86a-4985-bec7-399a9c1f3c7b.png">
 
 The user has to clone the repo to run the application. When that is done, use the terminal and input node index.js to initiate the app.
 Then enter the prompts as followed. The README file will be generated after all the prompts have been answered.
+
+
 
 ## Installation
 
@@ -38,8 +40,8 @@ Then enter the prompts as followed. The README file will be generated after all 
 * npm test
    
 ## Technologies
-*NodeJS
-*Inquirer
+* NodeJS
+* Inquirer
 
 ## Questions
 
