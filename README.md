@@ -52,4 +52,4 @@ Then enter the prompts as followed. The README file will be generated after all 
 If you have any questions about my project, email me at scampos321 or check out my GitHub projects [scampos321](https://github.comscampos321)   
 
 ## Demonstration Video
-[https://drive.google.com/file/d/1YoLmf54AS7hJUb2Sm-RYlSGlJYPExMAe/view?usp=sharing](url)
+[Demo Video](https://drive.google.com/file/d/1YoLmf54AS7hJUb2Sm-RYlSGlJYPExMAe/view?usp=sharing)
