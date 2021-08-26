@@ -45,7 +45,6 @@ Then enter the prompts as followed. The README file will be generated after all 
 * NodeJS
 * Inquirer
 * fs
-* path
 
 ## Questions
 
